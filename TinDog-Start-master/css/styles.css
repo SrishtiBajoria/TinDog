@@ -1,0 +1,172 @@
+body{
+  font-family: 'Montserrat-Black';
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding: 0 0 4rem 1rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+/* font-family: 'Ubuntu', sans-serif; */
+color: #fff;
+font-size: 4rem;
+font-weight: bolder;
+line-height: 1.5;
+}
+
+.btn{
+  margin: 5% 3% 5% 0;
+}
+
+#title img{
+  width: 300px;
+  transform:rotate(25deg);
+  position: absolute;
+}
+
+#features{
+  padding:7% 17%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.col-lg-4{
+  padding: 50px 10px 20px 10px;
+}
+
+.col-lg-4{
+  text-align: center;
+}
+
+h3{
+  line-height: 1.5rem;
+  font-family: 'Montserrat-Black';
+  font-weight: bolder;
+}
+
+p{
+  color: #8f8f8f;
+  line-height: 1.5rem;
+}
+
+
+#features .fas{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover{
+  color:#ff4c68;
+}
+
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+
+h2{
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+#testimonials img{
+  width: 12%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.carousel-item{
+  padding: 7% 17%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing col-lg-4{
+  padding: 3% 2%;
+}
+
+#pricing btn{
+  width: 100%;
+}
+
+
+@media (max-width:1150px){
+  #title{
+    text-align: center;
+  }
+
+  #title img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 3%;
+  text-align: center;
+}
+
+#cta h3{
+  font-family: 'Montserrat-Black';
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3%;
+}
+
+#footer .fab{
+  padding: 0px 5px 10px;
+}
+#footer .fas{
+  padding: 0px 5px 10px;
+}
